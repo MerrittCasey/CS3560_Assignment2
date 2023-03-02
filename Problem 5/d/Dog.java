@@ -1,12 +1,17 @@
+import java.util.ArrayList;
 
 public class Dog {
 	private String breed;
 	private String name;
-	private Paw[] paws;
+	private ArrayList<Paw> paws;
 	
 	public Dog() {
 		breed = "";
 		name = "";
-		paws = new Paw[] {new Paw(0), new Paw(1), new Paw(2), new Paw(3)};
+		paws = new ArrayList<Paw>();
+		paws.add(new Paw(0));
+		paws.add(new Paw(1));
+		paws.add(new Paw(2));
+		paws.add(new Paw(3));
 	}
 }

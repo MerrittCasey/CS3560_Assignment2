@@ -14,6 +14,7 @@ public class Employee {
 	}
 	
 	//return hours
+	//you need this to calculate professor salary
 	public int getHours() {
 		return hours;
 	}

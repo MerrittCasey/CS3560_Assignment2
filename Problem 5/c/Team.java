@@ -1,10 +1,18 @@
+import java.util.List;
 
 public class Team {
 	private int code;
-	private Player[] players;
+	private List<Player> players;
 	
 	public Team() {
 		code = 0;
-		players = new Player[]{new Player("", false)};
+	}
+
+	public setPlayers(List<Player> players){
+		this.players = players;
+	}
+
+	public addPlayer(Player player){
+		players.add(player);
 	}
 }

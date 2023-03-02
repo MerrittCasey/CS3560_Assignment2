@@ -46,6 +46,7 @@ public class Student {
 		this.gpa = gpa;
 	}
 	
+	@Override
 	public String toString() {
 		return name + ", " + major + ", " + Double.toString(gpa);
 	}
