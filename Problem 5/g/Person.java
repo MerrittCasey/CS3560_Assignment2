@@ -1,10 +1,14 @@
 
 public class Person {
 	private String name;
-	private Watch watch;
+	private List<Watch> movies;
 	
-	public Person(String name, Watch watch) {
+	public Person(String name,  List<Watch> movies) {
 		this.name = name;
-		this.watch = watch;
+		this.movies = movies;
+	}
+
+	public addMove(Watch watching){
+		movies.add(watching);
 	}
 }
